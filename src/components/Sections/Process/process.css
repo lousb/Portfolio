@@ -119,6 +119,10 @@
   .page-four{
     min-height:fit-content;
     height:400vh;
+    padding-bottom: 5vh;
+  }
+  .process-title{
+    display: none;
   }
   .process-grid-wrap{
     flex-direction: column;
@@ -143,6 +147,9 @@
   .photos-grid{
     flex-direction: column;
 
+  }
+  .gif{
+   margin-top:20px;
   }
 
   .process-photo-col{

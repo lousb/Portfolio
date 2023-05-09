@@ -18,6 +18,9 @@
     padding-top: 70px;
     scale:2.8;
     transform-origin:center right;
+
+}
+.first-page-title{
     transform: translateY(-5vh);
 }
 .loading-wrap > h1{
@@ -40,5 +43,9 @@
         width:50vw;
         font-size:2em;
         line-height: normal !important;
+    
+    }
+    .first-page-title{
+        transform: translateX(8vw);
     }
 }

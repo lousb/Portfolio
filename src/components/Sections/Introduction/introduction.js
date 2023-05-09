@@ -89,7 +89,12 @@ function Introduction(){
 
     useEffect(() => {
         //probs could have a better solution to instant animating
-
+        anime({
+          targets:'.first-page-title',
+          translateX:'8vw',
+          duration: 0,
+          easing: 'easeOutSine'
+      })
 
         anime({
             targets:'.first-page-wrap',
@@ -127,6 +132,21 @@ function Introduction(){
             duration: 2000,
             easing: 'easeOutSine'
         })
+        anime({
+          targets:'.first-name',
+          marginRight:'0',
+          delay: 3000,
+          duration: 2000,
+          easing: 'easeOutSine'
+      })
+      anime({
+        targets:'.first-page-title',
+        translateX:'0',
+        delay: 3000,
+        duration: 2000,
+        easing: 'easeOutSine'
+    })
+
         const app = document.getElementsByClassName('App')[0];
         setTimeout(() => {             app.classList.remove('overflow');},5000);
     })

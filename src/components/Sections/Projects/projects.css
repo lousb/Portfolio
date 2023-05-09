@@ -42,7 +42,7 @@
     margin-top:-2px;
     margin-bottom:-2px;
     
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .project-tile:hover{
     cursor: pointer;

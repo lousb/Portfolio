@@ -51,6 +51,9 @@ canvas {
   opacity: 0; 
 }
 @media only screen and (max-width: 1200px){
+  .dot-overlay{
+    opacity: 0.1;
+  }
   section{
     width:90%;
     padding-inline: 5%;

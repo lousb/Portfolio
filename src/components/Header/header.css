@@ -1,0 +1,24 @@
+header{
+    position: fixed;
+    z-index: -1;
+    top:0;
+}
+.header-text{
+    font-family: 'Inter', sans-serif;
+    color: var(--third);
+    text-transform: uppercase;
+    font-size:3.8em;
+    font-weight: 700;
+    letter-spacing: -4px;
+    padding-top: 40px;
+    opacity: 0;
+}
+.double-dot{
+    opacity: 0;
+    margin-left: .5em;
+}
+@media only screen and (max-width: 700px){
+    header{
+        transform: translateX(-10px);
+    }
+}

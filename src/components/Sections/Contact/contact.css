@@ -1,0 +1,58 @@
+.page-five{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,42,69,1) 0%, rgba(30,40,65,1) 30%, rgba(22,28,46,1) 100%);
+    margin-top: -1px;
+}
+.contact-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: var(--third);
+    text-transform: uppercase;
+    font-size:8.8em;
+    top:0;
+    font-weight: 700;
+    letter-spacing: -4px;
+
+    position: relative;
+    transition: all 200ms ease;
+}
+.get-in-touch{
+    cursor: pointer;
+    position: relative;
+}
+.get-in-touch:active{
+    transform: translateY(3px);
+}
+.get-in-touch::after{
+    content:'';
+    width: 0;
+    background-color: var(--secondary);
+    right:0;
+    height: 5px;
+    position: absolute;
+    bottom:0;
+    transition: all 500ms ease ;
+}
+.get-in-touch:hover::after{
+    width: 100%;
+    left:0;
+}
+@media only screen and (max-width: 1200px){
+    .contact-wrap{
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        color: var(--third);
+        text-transform: uppercase;
+        font-size:5.8em;
+        top:0;
+        font-weight: 700;
+        letter-spacing: -4px;
+    
+        position: relative;
+        transition: all 200ms ease;
+    }
+}

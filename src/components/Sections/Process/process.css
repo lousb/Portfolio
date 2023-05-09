@@ -1,0 +1,151 @@
+.page-four{
+    background-color: var(--background);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,42,69,1) 0%, rgba(30,40,65,1) 30%, rgba(22,28,46,1) 100%);
+    clip-path: inset(0 0 0 0);
+    overflow: visible;
+    backface-visibility: hidden;
+    width:100%;
+    height: fit-content;
+    padding-left: 10%;
+    padding-bottom: 20vh;
+
+}
+.process-wrap{
+  height:100vh;
+  width:80%;
+  display: flex;
+  align-items: center;
+}
+.process-title{
+    font-family: 'Inter', sans-serif;
+    color: var(--third);
+    z-index: 10;
+    text-transform: uppercase;
+    font-size:3.8em;
+    top:0;
+    font-weight: 700;
+    letter-spacing: -4px;
+    padding-top: 40px;
+    position: fixed;
+    transform-origin: top left;
+}
+.process-grid-wrap{
+    display: flex;
+    justify-content: space-between;
+    height:60%;
+    width: 100%;
+    margin-top:5%;
+
+}
+.process-col{
+  width:23.5%;
+  height:100%;
+
+}
+.process-col span{
+  font-family: 'Inter', sans-serif;
+  display: block;
+  color: var(--third);
+  opacity: 0;
+}
+.process-step-title{
+  font-size: 16pt;
+  font-weight: 500;
+}
+.process-step-content{
+  margin-top: 10px;
+  font-size: 10pt;
+}
+.process-col-2{
+  margin-top:10%;
+}
+.num-4{
+  margin-top:10%;
+}
+.num-5{
+  margin-top:90%;
+}
+.photos-wrap{
+  height:fit-content;
+  width:80%;
+}
+.photos-grid{
+  display: flex;
+  justify-content: space-between;
+  height:80%;
+  width: 100%;
+  margin-top:5%;
+
+}
+.process-photo-col{
+  height:100%;
+  width:48.5%;
+}
+.process-photo-col img{
+  width: 100%;
+  object-fit: cover;
+  height:auto;
+}
+.process-photo-col-double{
+  display: flex;
+  justify-content: space-between;
+  margin-top:auto;
+}
+.process-photo-col-double > div{
+  width: 31%;
+}
+.small-image-wrap{
+  color: var(--third);
+  margin-top:10px;
+}
+.small-image-wrap img{
+  margin-top: 10%;
+  height: 80%;
+}
+.process-step-content{
+  opacity:0;
+}
+.process{
+  transition: all 0.4s linear;
+  text-decoration: none;
+  color: var(--main);
+
+}
+.process-grid-wrap:hover .process:not(:hover){ 
+  opacity: 0.5;
+}
+@media only screen and (max-width: 900px){
+  .page-four{
+    min-height:fit-content;
+    height:400vh;
+  }
+  .process-grid-wrap{
+    flex-direction: column;
+  }
+  .process-wrap{
+    height:fit-content;
+
+
+  }
+  .process-grid-wrap{
+    margin-top:100px;
+  }
+  .process-num{
+    margin-top:50px;
+  }
+  .process-col{
+    width:80vw;
+  }
+  .process-col-2{
+    margin-top:0;
+  }
+  .photos-grid{
+    flex-direction: column;
+
+  }
+
+  .process-photo-col{
+    width: 100%;
+  }
+}

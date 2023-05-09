@@ -95,6 +95,12 @@ function Introduction(){
           duration: 0,
           easing: 'easeOutSine'
       })
+      anime({
+        targets:'.first-page-title',
+        paddingLeft:'20vw',
+        duration: 0,
+        easing: 'easeOutSine'
+    })
 
         anime({
             targets:'.first-page-wrap',
@@ -141,14 +147,15 @@ function Introduction(){
       })
       anime({
         targets:'.first-page-title',
-        translateX:'0',
+        paddingLeft:'0',
+        translateX:0,
         delay: 3000,
         duration: 2000,
         easing: 'easeOutSine'
     })
 
         const app = document.getElementsByClassName('App')[0];
-        setTimeout(() => {             app.classList.remove('overflow');},5000);
+        setTimeout(() => {app.classList.remove('overflow');},5000);
     })
 
     return(

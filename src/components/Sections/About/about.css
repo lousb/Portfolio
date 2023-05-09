@@ -41,7 +41,7 @@
 }
 
 .about-first-line{
-    text-indent: 22%;
+    text-indent: 32%;
 }
 .about-first-line span{
     display: inline;
@@ -169,8 +169,12 @@ button:active {
     }
     .about-right{
         margin-left:-10px;
-        min-width:90vw;
+        min-width:80vw;
     }
+    .about-line > span{
+        font-size: 5vw;
+    } 
+
     .read-more{
         transform: translateY(15vh);
     }
@@ -179,12 +183,21 @@ button:active {
         margin-top:0;
     }
     .about-line > span{
-        font-size: 6.15vw;
+        font-size: 5.9vw;
     }
-    .about-first-line {
-        text-indent: 30%;
-    }
+
     .read-more{
         display: none;
+    }
+}
+@media only screen and (max-width: 700px){
+
+
+    .about-right{
+        margin-left:-10px;
+        min-width:90vw;
+    }
+    .about-line > span{
+        font-size: 6vw;
     }
 }

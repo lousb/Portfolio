@@ -52,7 +52,7 @@ canvas {
 }
 @media only screen and (max-width: 1200px){
   .dot-overlay{
-    opacity: 0.1;
+    opacity: 0.05;
   }
   section{
     width:90%;

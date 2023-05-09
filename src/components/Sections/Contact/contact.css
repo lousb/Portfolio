@@ -41,6 +41,9 @@
     width: 100%;
     left:0;
 }
+.opacity{
+    opacity: 0;
+}
 @media only screen and (max-width: 1200px){
     .contact-wrap{
         text-align: center;

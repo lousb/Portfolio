@@ -43,7 +43,7 @@
 }
 @media only screen and (max-width: 700px){
     .footer{
-        scale:0.7;
+        font-size:3vw;
         transform-origin: top left;
     }
 }

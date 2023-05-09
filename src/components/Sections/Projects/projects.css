@@ -41,7 +41,7 @@
     position: relative;
     margin-top:-2px;
     margin-bottom:-2px;
-    
+
     overflow: hidden !important;
 }
 .project-tile:hover{
@@ -231,13 +231,25 @@
     .short-desc-links{
         color:transparent !important;
     }
+    .project-short-desc{
+        opacity: 0;
+    }
     .project-tile:hover .project-short-desc{
         padding-bottom: 60px !important;
+        opacity: 1 !important;
     }
     .active .project-short-desc{
         padding-bottom: 60px !important;
     }
     .active .project-long-desc{
         padding-bottom: 300px !important;
+    }
+    .page-three{
+        min-height: 200svh;            /* fall-back */
+        min-height: calc(-moz-available * 2) ;
+        min-height: calc(-webkit-fill-available* 2);
+        min-height: calc(fill-available* 2);
+    
+    
     }
   }

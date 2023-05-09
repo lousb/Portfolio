@@ -27,13 +27,23 @@ function Process() {
             }
 
             anime({
+              targets: '.canvas',
+              marginTop: 0,
+              marginLeft: 0, // change to red
+              duration: 0, // duration of the animation in milliseconds
+            });
+            anime({
               targets: ".process-title",
               scale: "0.8",
               delay: 300,
               duration: 2000, // duration of the animation in milliseconds
               easing: "easeOutSine",
             });
-
+            anime({
+              targets: '.canvas div',
+              opacity: 1, // change to red
+              duration: 0, // duration of the animation in milliseconds
+            });
             anime({
               targets: ".footer-home",
               color: "#D0D4EB", // change to red
@@ -229,11 +239,9 @@ function Process() {
               </div>
               <div className='small-image-wrap'>
                 <img src={"/IMG_5407.webp"}/>
-                Interest: Art
               </div>
               <div className='small-image-wrap'>
                 <img src={"/1AC1361D-3782-4C0E-AB34-8A5C45CB7136.JPG"}/>
-                Denim Patch
               </div>
             </div>
           </div>

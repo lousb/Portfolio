@@ -13,37 +13,46 @@ function Contact(){
               entries => {
                 entries.forEach(entry => {
                   if (entry.isIntersecting) {
+
+
+
                      
-                          anime({
-                              targets: '.footer-home',
-                              color: '#202A45', // change to red
-                              duration: 2000, // duration of the animation in milliseconds
-                              easing: 'easeOutSine'
-                            });
-                            anime({
-                              targets: '.footer-about',
-                              color: '#202A45', // change to red
-                              duration: 2000, // duration of the animation in milliseconds
-                              easing: 'easeOutSine'
-                            });
-                            anime({
-                              targets: '.footer-projects',
-                              color: '#202A45', // change to red
-                              duration: 2000, // duration of the animation in milliseconds
-                              easing: 'easeOutSine'
-                            });
-                            anime({
-                              targets: '.footer-process',
-                              color: '#202A45', // change to red
-                              duration: 2000, // duration of the animation in milliseconds
-                              easing: 'easeOutSine'
-                            });
-                            anime({
-                              targets: '.footer-contact',
-                              color: '#202A45', // change to red
-                              duration: 2000, // duration of the animation in milliseconds
-                              easing: 'easeOutSine'
-                            });
+                    anime({
+                        targets: '.footer-home',
+                        color: '#202A45', // change to red
+                        duration: 2000, // duration of the animation in milliseconds
+                        easing: 'easeOutSine'
+                      });
+                      anime({
+                        targets: '.canvas',
+                        marginTop: '-100vh',
+                        marginLeft: '-100vw', // change to red
+                        duration: 0, // duration of the animation in milliseconds
+                      });
+                      anime({
+                        targets: '.footer-about',
+                        color: '#202A45', // change to red
+                        duration: 2000, // duration of the animation in milliseconds
+                        easing: 'easeOutSine'
+                      });
+                      anime({
+                        targets: '.footer-projects',
+                        color: '#202A45', // change to red
+                        duration: 2000, // duration of the animation in milliseconds
+                        easing: 'easeOutSine'
+                      });
+                      anime({
+                        targets: '.footer-process',
+                        color: '#202A45', // change to red
+                        duration: 2000, // duration of the animation in milliseconds
+                        easing: 'easeOutSine'
+                      });
+                      anime({
+                        targets: '.footer-contact',
+                        color: '#202A45', // change to red
+                        duration: 2000, // duration of the animation in milliseconds
+                        easing: 'easeOutSine'
+                      });
                             
                             
   

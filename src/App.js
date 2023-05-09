@@ -89,7 +89,7 @@ function CameraPositioning() {
           <Sections.Projects  setActiveTileIndex={setActiveTileIndex} />
           <Sections.Process appRef={appRef}/>
           <Sections.Contact />   
-          <Canvas tabIndex={0} >
+          <Canvas tabIndex={0} className='canvas'>
               <Suspense fallback={null}>
                   <EsotericModel/>
                   <MacsModel/>

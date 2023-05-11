@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "homepage": "https://louis.wyeeeth.com",
+  "postbuild": "cp public/favicon-01.png build/favicon-01.png",
 
   "dependencies": {
     "@react-spring/web": "^9.7.2",

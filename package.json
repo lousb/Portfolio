@@ -1,8 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://louis.wyeeeth.com",
-  "private": true,
+  "homepage": "https://lousb.github.io/portfolio",
+
   "dependencies": {
     "@react-spring/web": "^9.7.2",
     "@react-three/drei": "^9.65.4",

@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://lousb.github.io/portfolio",
+  "homepage": "https://louis.wyeeeth.com",
 
   "dependencies": {
     "@react-spring/web": "^9.7.2",
